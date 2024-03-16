@@ -1,6 +1,7 @@
 from employee import Employee
 from db import conn
 
+# Manage yor database here
 
 first_user = Employee.get(1)
 second_user = Employee.get(2)

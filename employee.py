@@ -5,6 +5,8 @@ from db import c, conn
 PK - Primary Key
 """
 
+# The main class of an employee
+
 
 class Employee(object):
     def __init__(self, name, surname, age, pk=None):
